@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title>Mr. and Mrs. Jones :: RSVP</title>
+	<link href="wedding.css" rel="stylesheet">
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="wedding.css">
+	<script src="rsvpscript.js" defer></script>
+	</head>
+<header>
+<h1>Mr. and Mrs. Jones</h1>	
+</header>	
+<nav>
+<a href="index.html">Homepage</a>
+<a href="dresscode.html">Dress Code</a>	
+<a href="questions.html">FAQs</a>	
+<a href="rsvp.html">RSVP</a>		
+</nav>
+<img src= "proposal2.jpg" alt="Proposal Photo" style="display: block; margin: auto; width: 400px; height: 400px; border-radius: 50%; ">	
+<div style="width:50%; margin: 0 auto;">
+<body>	
+<main><br><br>
+<h4>Deadline December 15, 2027</h4><br>
+<h4>Be sure to RSVP for yourself only. If you have been granted a plus-one, you will be notified in advance, and your guest must submit a separate RSVP</h4>	
+<form id="RSVPForm"
+	  >
+
+<label for="name">Full Name:</label><br>
+    <input type="text" id="name" required><br><br>
+	
+<label for="myEmail">*E-mail:</label><br>
+<input type="email" id="myEmail" name="myEmail" required="required"><br><br>
+	
+<label for="myPhone">Phone:</label><br>
+<input type="tel" id="myPhone" name="myPhone" maxlength="12"><br><br>
+
+<label for="attending">Will you attend?</label>
+    <select id="attending">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select><br><br>
+	
+
+    <button type="submit">Submit</button>
+	</form>	
+	
+	<p id="message"></p>
+<footer>
+<p>Copyright &copy; The Joneses 2028</p>	
+	</footer>
+	</main>	
+</body>
+	</div>	
+</html>
